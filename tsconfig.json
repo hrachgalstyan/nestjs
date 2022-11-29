@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": ["src/*"],
+      "@Exception/*": ["src/exceptions/*"],
+      "@Middlewares/*": ["src/middlewares/*"],
+      "@Decorators/*": ["src/decorators/*"],
+      "@Filters/*": ["src/filters/*"],
+      "@Guards/*": ["src/guards/*"],
+      "@Interceptors/*": ["src/interceptors/*"],
+      "@Models/*": ["src/models/*"],
+      "@Modules/*": ["src/modules/*"],
+      "@Pipes/*": ["src/pipes/*"],
+      "@Swagger/*": ["src/swagger/*"],
+      "@Utils/*": ["src/utils/*"]
+    }
+  }
+}
